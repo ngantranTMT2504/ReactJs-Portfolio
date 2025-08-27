@@ -1,0 +1,40 @@
+#activities {
+    width: 100%;
+    position: relative;
+}
+
+.activities-heading h3 {
+    font-size: 2.35rem;
+}
+
+.activity-link {
+    display: block;
+    color: var(--gray-color);
+    font-size: 1rem;
+    margin: 15px 0;
+}
+
+.activity-link:hover {
+    color: var(--blue-color);
+}
+
+.activities-img {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.activities-img img {
+    max-width: 50%;
+    height: 100%;
+    display: inline-block;
+    object-fit: contain;
+    object-position: top;
+}
+
+@media (max-width: 865px) {
+    .activities-heading h3 {
+        font-size: 1.7rem;
+    }
+}

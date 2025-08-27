@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-content h3{
+    font-size: 2.35rem;
+}
+
+.footer-content p{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.footer-content .social i{
+    color: var(--white);
+    font-size: 1.4rem;
+    padding: 10px 40px 0 0;
+    transition: .3s;
+}
+
+.footer-content .social i:hover{
+    text-shadow: 0 0 5px var(--white);
+}
+
+@media (max-width: 765px) {
+    .footer-content{
+        display: block;
+        text-align: center;
+    }
+}

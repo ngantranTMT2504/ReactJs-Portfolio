@@ -1,0 +1,63 @@
+#education{
+    width: 100%;
+    position: relative;
+}
+
+.education-content{
+    width: 100%;
+    position: relative;
+}
+
+.education-heading h3{
+    font-size: 2.35rem;
+}
+
+.education-content .img-education{
+    position: relative;
+    min-width: 330px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+     margin-top: 30px;
+}
+
+.education-content .school{
+  margin: auto 0;
+}
+
+.education-content .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid var(--blue-color);
+    padding-left: 15px;
+}
+
+
+.education-content .title .name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.education-content .title .year{
+    font-size: 1rem;
+    color: var(--gray-color);
+    font-size: 400;
+}
+
+@media (max-width: 865px) {
+    .education-heading h3{
+        font-size: 1.7rem;
+    }
+
+    .education-content .title .name{
+        font-size: 1.2rem;
+    }
+
+    .education-content .title .year{
+        font-size: 0.8rem;
+    }
+}
